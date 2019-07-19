@@ -1,0 +1,105 @@
+.section-3 {
+    margin-top: 100px;
+    p {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    span {
+        color: #929292;
+        s {
+            font-size: 13px;
+        }
+    }
+    a {
+        padding: 5px 30px;
+        background-color: #eeeeee;
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 140px;
+        height: 35px;
+        text-align: center;
+        line-height: 25px;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+        &:hover::after {
+            border-color: black transparent transparent transparent;
+        }
+        &::after {
+            content: " ";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 10px 0 10px;
+            border-color: #eeeeee transparent transparent transparent;
+            position: absolute;
+            bottom: -30%;
+            left: 44%;
+            z-index: -1;
+        }
+    }
+    .col-12{
+        max-width: 700px;
+    }
+    .showme:hover .btn-content {
+        display: block;
+    } 
+    .btn-content{
+        display: none;
+    }
+    hr {
+        max-width: 70px;
+    }
+    .nav-tabs {
+        border-bottom: none;
+    }
+    .tab-btn1 {
+            font-size: 11px;
+            width: 40%;
+            bottom: 80px;
+            left: 20px;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+    }
+    .tab-btn2 {
+            font-size: 11px;
+            width: 40%;
+            bottom: 80px;
+            right: 20px;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+    }
+    .tab-content {
+        margin-top: 30px;
+        .Newitem {
+        top: 10px;
+        right: 25px;
+        border: 1px solid black;
+        padding: 0px 5px;
+        font-size: 11px;
+        background: black;
+        color: white;
+        }
+        .disc {
+        top: 10px;
+        left: 25px;
+        border: 1px solid red;
+        padding: 0px 5px;
+        font-size: 11px;
+        background: red;
+        color: white;
+        opacity: 0.6;
+        }
+    }
+}
+
+

@@ -1,0 +1,22 @@
+@import 'header';
+@import 'section-1';
+@import 'section-2';
+@import 'section-3';
+@import 'section-4';
+@import 'section-5';
+@import 'footer';
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 13px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.btn {
+    box-shadow: none !important;
+}

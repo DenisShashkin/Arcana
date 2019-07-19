@@ -1,0 +1,33 @@
+.section-4 {
+    .col-6 {
+        padding: 0;
+    }
+    .btn{
+        width: 200px;
+        height: 50px;
+        font-size: 13px;
+    }
+    hr {
+        width: 100px;
+    }
+    p {
+        width: 500px;
+        text-align: center;
+    }
+    .btnBS {
+        height: 50px;
+        &:hover {
+            background-color: transparent;
+            color: black;
+        }
+    }
+    img {
+        text-align: center;
+    }
+    .col-12 {
+        padding: 0;
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,134 @@
+header {
+    background: url("../img/headerbg.png") no-repeat center center;
+    height: 100vh;
+    padding-top: 40px; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  .dropdown-menu {
+    width: 1140px;
+    top: 70px !important;
+    padding: 0px !important;
+    .dropdown-item {
+      &:hover {
+        background: none;
+      }
+      .dropdown-item-img {
+        width: 100px;
+        height: 134px;
+      }
+      .dropdown-item-logo {
+        width: 140px;
+        img {
+          width: 100%;
+        }
+      }
+      li:hover {
+        text-decoration: underline;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      span {
+        color: #929292;
+      }
+    }
+  }
+  .nav_logo {
+      border: none;
+  }
+  .nav .nav-link {
+    padding: 20px 80px 0  0;
+    color: black;
+  }
+  .container {
+        height: 85px;
+        border-bottom: 1px solid #d4d4d4;
+        padding: 0;
+  }
+}
+
+// Slider
+
+.carousel {
+  height: 590px;
+  .carousel-item {
+    height: 590px;
+  }
+  .carousel-text   {
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+    .btn {
+      font-size: 13px;
+      padding: 20px 45px;
+    }
+    p {
+      color: #7f7f7f;
+      font-size: 13px;
+    }
+    h2 {
+      font-size: 52px;
+    }
+  }
+ 
+  .carousel-indicators {
+    right: auto;
+    left: auto; 
+    li {
+      width: 10px;
+      height: 10px;
+      background-color: #ffffff;
+      opacity: 1;
+    }
+    .active {
+      background-color: black;
+    }
+  }
+}
+.carousel-control-prev-icon {
+  position: relative;
+  left: -50px;
+  &::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.302);
+    width: 54px;
+    height: 54px;
+    z-index: 349;
+    left: -18px;
+    top: -15px;
+    &:hover {
+      background-color: black;
+    }
+    }
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  right: -50px;
+  &::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.302);
+    width: 54px;
+    height: 54px;
+    z-index: 349;
+    left: -18px;
+    top: -15px;
+  }
+}
